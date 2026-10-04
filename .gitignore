@@ -11,6 +11,8 @@ node_modules
 dist
 dist-ssr
 *.local
+portfolio-social-screenshots/
+capture-screenshots.mjs
 
 # Environment — NEVER commit secrets
 .env
