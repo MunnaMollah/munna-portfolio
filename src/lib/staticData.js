@@ -1,0 +1,132 @@
+// Static fallback data used when Supabase is not configured
+// Replace with real data through the admin dashboard
+
+export const PERSONAL_PROJECTS = [
+  {
+    id: 'personal-1',
+    title: 'My Year 2024',
+    slug: 'my-year-2024',
+    category: 'Personal Film',
+    project_type: 'personal',
+    client: null,
+    year: 2024,
+    description: 'A personal year-in-review film capturing moments, travels, and memories from 2024. Shot and edited by Munna.',
+    role: 'Director / Editor / Cinematographer',
+    thumbnail_url: '/assets/thumbnails/my-year-2024.jpg',
+    video_url: null,
+    aspect_ratio: '16:9',
+    services: ['Cinematography', 'Color Grading', 'Sound Design', 'Motion Graphics'],
+    tools: ['Adobe Premiere Pro', 'Adobe After Effects', 'DaVinci Resolve'],
+    featured: true,
+    published: true,
+    display_order: 1,
+  },
+  {
+    id: 'personal-2',
+    title: 'Sreemangal',
+    slug: 'sreemangal',
+    category: 'Travel Film',
+    project_type: 'personal',
+    client: null,
+    year: 2024,
+    description: 'A cinematic travel film exploring Sreemangal — the tea capital of Bangladesh. Aerial and ground footage capturing the lush green landscapes.',
+    role: 'Director / Editor / Cinematographer',
+    thumbnail_url: '/assets/thumbnails/sreemangal.jpg',
+    video_url: null,
+    aspect_ratio: '16:9',
+    services: ['Cinematography', 'Color Grading', 'Drone Footage', 'Sound Design'],
+    tools: ['DaVinci Resolve', 'Adobe Premiere Pro'],
+    featured: true,
+    published: true,
+    display_order: 2,
+  },
+  {
+    id: 'personal-3',
+    title: 'Sabdi',
+    slug: 'sabdi',
+    category: 'Cinematic Film',
+    project_type: 'personal',
+    client: null,
+    year: 2023,
+    description: 'A quiet cinematic piece filmed in the mustard fields of Sabdi — a visual exploration of stillness, light and rural landscape.',
+    role: 'Director / Editor / Cinematographer',
+    thumbnail_url: '/assets/thumbnails/sabdi.jpg',
+    video_url: null,
+    aspect_ratio: '16:9',
+    services: ['Cinematography', 'Color Grading', 'Visual Storytelling'],
+    tools: ['DaVinci Resolve', 'Adobe Premiere Pro'],
+    featured: true,
+    published: true,
+    display_order: 3,
+  },
+]
+
+export const STATS = [
+  { value: '600+', label: 'Completed Projects' },
+  { value: '5+', label: 'Years Freelancing' },
+  { value: 'Level 2', label: 'Fiverr Seller' },
+  { value: 'Global', label: 'Client Experience' },
+]
+
+export const SERVICES = [
+  {
+    id: 'short-form',
+    title: 'Short-form Video',
+    description: 'Reels, TikTok and YouTube Shorts designed around pacing, hooks and retention.',
+    icon: 'Zap',
+  },
+  {
+    id: 'gaming',
+    title: 'Gaming',
+    description: 'Montages, highlights, clips and gaming content that holds attention.',
+    icon: 'Gamepad2',
+  },
+  {
+    id: 'social-media',
+    title: 'Social Media',
+    description: 'Content optimized for modern social platforms — built to perform.',
+    icon: 'Share2',
+  },
+  {
+    id: 'ugc-ads',
+    title: 'UGC & Advertising',
+    description: 'Promotional content, product videos and social ads that convert.',
+    icon: 'Megaphone',
+  },
+  {
+    id: 'talking-head',
+    title: 'Talking Head',
+    description: 'Clean, engaging edits with captions, b-roll, pacing and sound design.',
+    icon: 'Mic2',
+  },
+  {
+    id: 'motion',
+    title: 'Motion & Visual Polish',
+    description: 'Motion graphics, transitions, visual effects and After Effects work.',
+    icon: 'Layers',
+  },
+  {
+    id: 'travel',
+    title: 'Travel & Storytelling',
+    description: 'Cinematic travel edits, photography, drone footage and visual storytelling.',
+    icon: 'MapPin',
+  },
+  {
+    id: 'long-form',
+    title: 'Long-form',
+    description: 'YouTube videos and longer-form content edited for watch time and retention.',
+    icon: 'Play',
+  },
+]
+
+export const WORK_FILTERS = [
+  { label: 'All',          match: 'all' },
+  { label: 'Short-form',   match: 'category', value: 'Short-form' },
+  { label: 'Long-form',    match: 'category', value: 'Long-form' },
+  { label: 'Gaming',       match: 'category', value: 'Gaming' },
+  { label: 'Advertising',  match: 'category', value: 'Advertising' },
+  { label: 'Social Media', match: 'category', value: 'Social Media' },
+  { label: 'Travel',       match: 'category', value: 'Travel' },
+  { label: 'Talking Head', match: 'category', value: 'Talking Head' },
+  { label: 'Personal',     match: 'type',     value: 'personal' },
+]
